@@ -1,0 +1,71 @@
+body{
+	background: #232323;
+	text-align: center;
+	margin-top: 0px;
+	font-family: "Montserrat","Avenir";
+}
+.square{
+	width: 30%;
+	background: #232323;
+	padding-bottom : 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 18%;
+	transition: background 1.0s; 
+	/* transition property take 2 arguments-first which property to be changed and second-in what time!!!??? */
+}
+#container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+h1{
+	color: white;
+	font-weight: normal;
+	text-transform: uppercase;
+
+}
+h1:nth-of-type(1)
+{
+	padding-top: 20px;
+}
+h1:nth-of-type(3){
+	padding-bottom: 20px;
+}
+ul>li>a{
+	color:blue;	
+}
+#stripe{
+	background: white;
+	color:blue;
+	text-align: center;
+	height: 30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+}
+span{
+	margin: auto 20px;
+}
+button{
+	border: none;
+	background: none;
+	outline: none;
+	height: 30px;
+	transition: all 0.3s;
+}
+button:hover{
+	background: lightseagreen;
+}
+div:nth-of-type(1){
+	background: lightseagreen;
+
+}
+.difficulty{
+	background: lightseagreen;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+	text-transform: uppercase;
+}
